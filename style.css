@@ -1,0 +1,45 @@
+.clik{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Display as inline-block */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Add some margin */
+    cursor: pointer; /* Cursor to pointer */
+    border-radius: 20px; /* Rounded corners */
+}
+
+.clik:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+@media screen and (max-width: 600px) {
+    .clik {
+        padding: 8px 16px; /* Less padding on smaller screens */
+        font-size: 14px; /* Smaller font size */
+    }
+}
+footer {
+    padding: 20px 0;
+    background-color: #333;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ccc;
+}
+
+footer .copyright {
+    color: #ccc;
+    font-size: 14px;
+}
+@media screen and (max-width: 600px) {
+    footer {
+        padding: 10px 0;
+    }
+}
